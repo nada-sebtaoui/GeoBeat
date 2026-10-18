@@ -1,0 +1,108 @@
+import { Client } from '../types';
+
+export const mockClients: Client[] = [
+  { 
+    id: "1", 
+    name: "Ahmed Mansour", 
+    company: "TechCorp Tunis", 
+    address: "La Marsa, Tunis", 
+    lat: 36.8781, 
+    lng: 10.3249, 
+    phone: "+216 71 123 456", 
+    priority: "high", 
+    status: "pending", 
+    visitOrder: null, 
+    notes: "Renouvellement contrat" 
+  },
+  { 
+    id: "2", 
+    name: "Sonia Belhadj", 
+    company: "Groupe Poulina", 
+    address: "Lac 1, Tunis", 
+    lat: 36.8325, 
+    lng: 10.2303, 
+    phone: "+216 71 234 567", 
+    priority: "high", 
+    status: "pending", 
+    visitOrder: null, 
+    notes: "Présentation nouveau produit" 
+  },
+  { 
+    id: "3", 
+    name: "Mohamed Trabelsi", 
+    company: "STEG", 
+    address: "Bardo, Tunis", 
+    lat: 36.8090, 
+    lng: 10.1425, 
+    phone: "+216 71 345 678", 
+    priority: "medium", 
+    status: "pending", 
+    visitOrder: null, 
+    notes: "Signature devis" 
+  },
+  { 
+    id: "4", 
+    name: "Fatma Chaabane", 
+    company: "Tunisair", 
+    address: "Carthage, Tunis", 
+    lat: 36.8567, 
+    lng: 10.3210, 
+    phone: "+216 71 456 789", 
+    priority: "medium", 
+    status: "pending", 
+    visitOrder: null, 
+    notes: "Suivi commande" 
+  },
+  { 
+    id: "5", 
+    name: "Karim Jebali", 
+    company: "Ooredoo Tunisie", 
+    address: "Menzah 6, Tunis", 
+    lat: 36.8467, 
+    lng: 10.1934, 
+    phone: "+216 71 567 890", 
+    priority: "low", 
+    status: "pending", 
+    visitOrder: null, 
+    notes: "Prospection" 
+  },
+  { 
+    id: "6", 
+    name: "Leila Hamdi", 
+    company: "Banque Zitouna", 
+    address: "Lac 2, Tunis", 
+    lat: 36.8389, 
+    lng: 10.2512, 
+    phone: "+216 71 678 901", 
+    priority: "high", 
+    status: "pending", 
+    visitOrder: null, 
+    notes: "RDV direction" 
+  },
+  { 
+    id: "7", 
+    name: "Youssef Gharbi", 
+    company: "Délice Holding", 
+    address: "Ariana, Tunis", 
+    lat: 36.8625, 
+    lng: 10.1936, 
+    phone: "+216 71 789 012", 
+    priority: "medium", 
+    status: "pending", 
+    visitOrder: null, 
+    notes: "Démo produit" 
+  },
+  { 
+    id: "8", 
+    name: "Nadia Sfar", 
+    company: "Monoprix Tunisie", 
+    address: "Ben Arous, Tunis", 
+    lat: 36.7531, 
+    lng: 10.2186, 
+    phone: "+216 71 890 123", 
+    priority: "low", 
+    status: "pending", 
+    visitOrder: null, 
+    notes: "Relance facture" 
+  },
+];
